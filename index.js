@@ -1,10 +1,7 @@
-import express from 'express';
+import { app } from './app.js';
 
-const app = express();
-app.use(express.json());
-
-const PUERTO = 8080;
+const PUERTO = 3000;
 
 app.listen(PUERTO, () => {
-  console.log(`Servidor de la Cafetería del CRUI escuchando en http://localhost:${PUERTO}`);
+  console.log(`Servidor escuchando en http://localhost:${PUERTO}`);
 });
