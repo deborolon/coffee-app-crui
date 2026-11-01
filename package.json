@@ -1,0 +1,31 @@
+{
+  "name": "coffee-app-crui",
+  "version": "1.0.0",
+  "description": "Mini API de la Cafetería del CRUI",
+  "keywords": [
+    "nodejs",
+    "api",
+    "express",
+    "backend"
+  ],
+  "homepage": "https://github.com/deborolon/coffee-app-crui#readme",
+  "bugs": {
+    "url": "https://github.com/deborolon/coffee-app-crui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deborolon/coffee-app-crui.git"
+  },
+  "license": "ISC",
+  "author": "Debo Rolon",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
